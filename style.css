@@ -1,0 +1,43 @@
+/*em {*/
+/*    color:red;*/
+/*    background-color: yellow;*/
+/*}*/
+/*strong{*/
+/*    color:yellow;*/
+/*    background-color: red;*/
+}
+h1:hover{
+    color: blue;
+    background-color: black;
+    font-style: italic;
+}
+li{
+    background-color:lightblue;  
+}
+nav{
+    text-transform: uppercase;
+    font-family: serif;
+}
+header{
+    /*height and width of the header*/
+    height: 600px;
+    width: 100%;
+    /*This is the cover image*/
+ background-image:url("cover.jpeg");
+ background-size:cover;
+ /*This is the alignment of the header*/
+ text-align: center;
+}
+
+header p{
+    font-style: italic;
+    
+}
+.services i {
+    font-size: 30px;
+    padding:25px 20px;
+    color:#fff;
+    background-color: #5bc0de;
+    width: 80px;
+    height: 80px;
+}
